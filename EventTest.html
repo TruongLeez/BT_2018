@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Phương trình bậc nhất</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.">
+</head>
+<body> 
+  <table border="1" id="table">
+  	<caption class="caption"> Giải Phương Trình Bậc 1</caption>
+  	<tr>
+  		<td>
+  			<input type="button" name="valueA" value="Nhap A"  class="mausac" onclick="inputA()">
+  			<input type="button" name="valueB" value="Nhap B"  class="mausac" onclick="inputB()">
+  			<input type="button" name="valueA" value="In kết Quá"  class="mausac" onclick="outAB()">
+  		</td>
+  	</tr>
+  </table>
+  <script type="text/javascript">
+  	function inputA() {
+			a = parseInt(prompt("Nhập A = "));
+		}
+		function inputB() {
+			b = parseInt(prompt("Nhập B = "));
+		}
+		function outAB() {			
+			var c = a + b;
+			alert("Tổng A+B: "+ c);
+		}
+  </script>
+</body>
+</html>

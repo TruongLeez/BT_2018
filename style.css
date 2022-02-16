@@ -1,0 +1,24 @@
+.caption{
+	background-color: #3db4bf;
+	font-family: arial;
+	font-size: 1em;
+	color: white;
+}
+#table{
+     width: 450px;
+     height: 30px;'
+     padding:30px 20px 30px 20px;
+}
+body{
+     margin-left: 20%;
+}
+.mausac{
+     background-color:#78d428;
+	border: 2px ;
+	padding-right:  1em; 
+	padding-left:  1em; 
+	margin-left: 10px;
+	text-align: center;
+	border-radius: 5px;
+  	font-size: 15px;	
+}
